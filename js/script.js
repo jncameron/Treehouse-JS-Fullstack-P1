@@ -1,8 +1,4 @@
-
-
 // randomly chooses a quote from quotes array in quotes.js
-
-
 function getRandomQuote() {
   var randomise = Math.floor(Math.random() * quotes.length);
    return quotes[randomise];
@@ -26,7 +22,7 @@ function printQuote(quote) {
   outputDiv.innerHTML = toQuote;
   changeBackgroundColor();
 }
-
+//change background color to one of 6 pre-selected colors each time function is called
 function changeBackgroundColor() {
   colors = ['#3399ff', '#009933', '#3D003D', '#A3A300', '#669999', '#cc6600'];
   randomColor = colors[Math.floor(Math.random() * colors.length)];

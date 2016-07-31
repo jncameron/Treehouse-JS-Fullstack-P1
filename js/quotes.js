@@ -3,9 +3,7 @@
 var quotes = [
   {
     quote: 'It is the mark of an educated mind to be able to entertain a thought without accepting it.',
-    source: 'Aristotle',
-    citation: '',
-    year: ''
+    source: 'Aristotle'
   },
   {
     quote: 'I\'m sorry Dave, I\'m afraid I can\'t do that.',
@@ -15,9 +13,7 @@ var quotes = [
   },
   {
     quote: 'Everything in moderation, including moderation.',
-    source: 'Oscar Wilde',
-    citation: '',
-    year: ''
+    source: 'Oscar Wilde'
   },
   {
     quote: 'Just taught my kids about taxes by eating 38% of their ice cream.',
@@ -28,13 +24,11 @@ var quotes = [
   {
     quote: 'These aren\'t the droids you\'re looking for.',
     source: 'Obi Wan Kenobi',
-    citation: '',
     year: 1977
   },
   {
     quote: 'People believe anything they see on the internet.',
     source: 'Sir Winston Churchill',
-    citation: '',
     year: 1942
   }
 
